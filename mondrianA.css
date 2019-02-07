@@ -1,9 +1,13 @@
 body{
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #mondrian{
-    height: 100vh;
-    width: 100vw;
+    border: 1vh solid black;
+    height: 98vh;
+    width: 98vh;
     display: grid;
     grid-gap: 10px;
     background-color: black;
