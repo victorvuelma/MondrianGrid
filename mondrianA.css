@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+#mondrian{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-gap: 10px;
+    background-color: black;
+    grid-template-areas: 'a a b b c c d'
+    'e f f f g g d'
+    'h f f f i j d'
+    'h k k l m m d'
+    'n k k o p p q'
+    'n r r s p p q'
+    'n r r t t t q';
+    grid-template-columns: 2fr 2fr 3fr 5fr 3fr 3fr 1fr;
+    grid-template-rows: 2fr 5fr 5fr 2fr 2fr 1fr 1fr; 
+}
+#mondrian div{    
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#mondrian div:nth-child(1){
+    grid-area: a;
+    background-color: #C9D2DB;
+}
+#mondrian div:nth-child(2){
+    grid-area: b;
+    background-color: #D3D5D2;
+}
+#mondrian div:nth-child(3){
+    grid-area: c;
+    background-color: #EFBB45;
+}
+#mondrian div:nth-child(4){
+    grid-area: d;
+    background-color: #D8D6E3;
+    height: 6fr;
+}
+#mondrian div:nth-child(5){
+    grid-area: e;
+    background-color: #EAE5E2;
+}
+#mondrian div:nth-child(6){
+    grid-area: f;
+    background-color: #DD422E;
+}
+#mondrian div:nth-child(7){
+    grid-area: g;
+    background-color: #EEBE52;
+}
+#mondrian div:nth-child(8){
+    grid-area: h;
+    background-color: #CED1D8;
+}
+#mondrian div:nth-child(9){
+    grid-area: i;
+    background-color: #D5D5D3;
+}
+#mondrian div:nth-child(10){
+    grid-area: j;
+    background-color: #DADBD6;
+}
+#mondrian div:nth-child(11){
+    grid-area: k;
+    background-color: #11120A;
+}
+#mondrian div:nth-child(12){
+    grid-area: l;
+    background-color: #B9C0C8;
+}
+#mondrian div:nth-child(13){
+    grid-area: m;
+    background-color: #D7D8DA;
+}
+#mondrian div:nth-child(14){
+    grid-area: n;
+    background-color: #F2BB43;
+}
+#mondrian div:nth-child(15){
+    grid-area: o;
+    background-color: #B7BEC6;
+}
+#mondrian div:nth-child(16){
+    grid-area: p;
+    background-color: #013F72;
+}
+#mondrian div:nth-child(17){
+    grid-area: q;
+    background-color: #E84D46;
+    height: 4fr;
+}
+#mondrian div:nth-child(18){
+    grid-area: r;
+    background-color: #CFCFCF;
+}
+#mondrian div:nth-child(19){
+    grid-area: s;
+    background-color: #131D12;
+}
+#mondrian div:nth-child(20){
+    grid-area: t;
+    background-color: #D5D3D6;
+}
